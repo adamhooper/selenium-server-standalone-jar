@@ -1,0 +1,29 @@
+{
+  "name": "selenium-server-standalone-jar",
+  "version": "2.40.0",
+  "description": "A jarfile, so you don't need to include it in your repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adamhooper/selenium-server-standalone-jar.git"
+  },
+  "keywords": [
+    "selenium",
+    "standalone",
+    "server",
+    "jar"
+  ],
+  "author": "Adam Hooper <adam@adamhooper.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/adamhooper/selenium-server-standalone-jar/issues"
+  },
+  "homepage": "https://github.com/adamhooper/selenium-server-standalone-jar",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0"
+  }
+}
