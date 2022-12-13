@@ -16,8 +16,8 @@ describe('selenium-standalone-server-jar', function() {
     });
 
     it('should exist', function(done) {
-      fs.exists(subject.path, function(exists) {
-        expect(exists).to.be.true;
+      fs.access(subject.path, function(err) {
+        expect(err).to.be.null;
         done();
       });
     });
