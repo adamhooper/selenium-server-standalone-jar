@@ -1,6 +1,6 @@
 {
   "name": "selenium-server-standalone-jar",
-  "version": "4.7.1",
+  "version": "4.14.0",
   "description": "A jarfile, so you don't need to include it in your repository",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/adamhooper/selenium-server-standalone-jar",
   "devDependencies": {
-    "mocha": "~4.0.1",
-    "chai": "~4.1.2"
+    "mocha": "~10.2.0",
+    "chai": "~4.3.10"
   }
 }
