@@ -1,6 +1,6 @@
 {
   "name": "selenium-server-standalone-jar",
-  "version": "4.38.0",
+  "version": "4.40.0",
   "description": "A jarfile, so you don't need to include it in your repository",
   "main": "index.js",
   "scripts": {
